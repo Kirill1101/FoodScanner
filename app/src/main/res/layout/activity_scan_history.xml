@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_element_home"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_green"
+    tools:context=".HomeActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearListInProducts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="75dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/layout_border" >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/productList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:paddingBottom="7dp"
+            android:paddingRight="5dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:fontFamily="@font/montserrat" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/scan_history_button_layout"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/buttonToHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/light_blue"
+            android:text="@string/goToHomeWindow"
+            android:textColor="@color/dark_grey"
+            app:fontFamily="@font/montserrat" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FoodScanner</string>
+
+    <string name="app_name_gap">Food Scanner</string>
+    <string name="text_bottom">Войдите с свою учётную запись</string>
+    <string name="buttonSignIn">Войти</string>
+    <string name="buttonRegister">Зарегестрироваться</string>
+    <string name="buttonScan">Сканировать</string>
+    <string name="buttonHistory">История</string>
+    <string name="youProductRestriction">Ваши пищевые ограничения:</string>
+    <string name="addRestriction">Добавить ограничение</string>
+    <string name="goToHomeWindow">На главный экран</string>
+</resources>

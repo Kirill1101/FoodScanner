@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1098442397803",
+    "project_id": "food-scanner-6aa18",
+    "storage_bucket": "food-scanner-6aa18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098442397803:android:a5b00826e73985de87f92e",
+        "android_client_info": {
+          "package_name": "com.ksr.foodscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098442397803-97c0959osp4q5kj4ck0r41hf2272epgi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ksr.foodscanner",
+            "certificate_hash": "eb91ffd754d2d9ad542a0be47b83980544f4ab6d"
+          }
+        },
+        {
+          "client_id": "1098442397803-469dkblodhd81dinoevvfpc76vp0ca7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg32ydGigj27rI3j4ZcvBm3BelUD11sgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098442397803-469dkblodhd81dinoevvfpc76vp0ca7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
